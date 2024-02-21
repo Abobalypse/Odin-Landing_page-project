@@ -87,34 +87,48 @@ a {
     margin-bottom: 50px;
   }
 
-  .container {
+  .midcode{
+    padding: 40px 0 80px;
+   
+
+}
+.smallbox{
+   max-width: 1000px;
+   margin: auto;
+   width: 80%;
+   
+
+}
+.tentativa{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    padding: 0 0 10%;
-  }
-
-  .square {
-    flex: 1;
-    max-width: 200px; /* Set the maximum width for each square */
-    background-color: lightgray;
-    border: 1px solid #3882f6;
-    box-sizing: border-box;
-    margin-right: 35px; /* Adjust the margin between squares as needed */
-    border-radius: 10px;
+    padding-bottom: 30px;
+ 
 }
 
-  .square img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: 0 auto;
-  }
 
-  .square p {
-    margin: 10px 0;
-  }
+.figures{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.smallimg-box{
+    border: solid 1px #3882f6;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.fig{
+    flex-basis: 200px;
+}
+
+figcaption{
+    padding-top: 5px;
+}
+
 
   .quoteContainer {
     text-align: center;
